@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Reddit Client</title>
+  </head>
+  <body>
+    <main>
+      <div class="list">
+        <div class="list-header">
+          <span class="subredditName">/r/</span>
+          <div class="dots">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="dropDown">
+            <div class="delete">Delete</div>
+            <div class="refresh">Refresh</div>
+          </div>
+        </div>
+        <div class="list-content"></div>
+      </div>
+      <div class="main-content">
+        <div class="main-content-header">
+          <div class="addSubreddit">+</div>
+        </div>
+        <div class="main-content-text"></div>
+        <div class="popup">
+          <div>Enter the name of subreddit</div>
+          <input class="subredditValue" type="text" />
+          <button class="addSubredditValue">Add Subreddit</button>
+        </div>
+      </div>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>
